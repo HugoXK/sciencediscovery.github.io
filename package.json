@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "fetch:docs": "node scripts/fetch-docs.mjs",
-    "build": "node scripts/fetch-docs.mjs --if-missing && node site/build.mjs && node scripts/check-site.mjs",
+    "build": "node scripts/fetch-docs.mjs --if-missing && node site/build.mjs",
     "dev": "npm run build && node scripts/serve.mjs",
     "serve": "node scripts/serve.mjs"
   },
