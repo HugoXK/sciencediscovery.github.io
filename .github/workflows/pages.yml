@@ -1,4 +1,5 @@
 name: Build and deploy website
+# fork: HugoXK/sciencediscovery.github.io custom domain
 on:
   push:
     branches: [main]
